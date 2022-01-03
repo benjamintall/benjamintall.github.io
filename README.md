@@ -1,1 +1,1 @@
-Doing Codecademys Front-End Engineer Career Path
+Plain CV page.
