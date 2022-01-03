@@ -68,7 +68,7 @@ h1 {
 }
 
 .skill {
-  background-color: white;
+  background-image: url("/blurry-gradient-haikei.svg");
   border-top: black solid 2px;
   height: 400px;
   position: relative;
@@ -84,6 +84,7 @@ h1 {
 }
 
 #skill-p {
+  color: antiquewhite;
   display: inline-block;
   left: 250px;
   position: absolute;
