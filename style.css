@@ -9,7 +9,7 @@
 }
 
 .top {
-  background-image: url("/resources/images/blurry-gradient-haikei.svg");
+  background-image: url("/blurry-gradient-haikei.svg");
   height: 100vh;
   padding-top: 100px;
   position: relative;
