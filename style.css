@@ -79,7 +79,7 @@ table {
 }
 
 .skill {
-  background-image: url("/resources/images/blurry-gradient-haikei.svg");
+  background-image: url("/blurry-gradient-haikei.svg");
   border-top: black solid 2px;
   height: 400px;
   position: relative;
