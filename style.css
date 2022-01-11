@@ -10,7 +10,7 @@
 }
 
 .top {
-  background-image: url("/resources/images/blurry-gradient-haikei.svg");
+  background-image: url("/blurry-gradient-haikei.svg");
   height: 90vh;
   padding-top: 7%;
   position: relative;
@@ -83,7 +83,7 @@ table {
 }
 
 .skill {
-  background-image: url("/resources/images/blurry-gradient-haikei.svg");
+  background-image: url("/blurry-gradient-haikei.svg");
   border-top: #4f4f4f solid 2px;
   height: 50vh;
   position: relative;
