@@ -10,7 +10,7 @@
 }
 
 .top {
-  background-image: url("/blurry-gradient-haikei.svg");
+  background-image: url("/resources/images/blurry-gradient-haikei.svg");
   height: 100vh;
   padding-top: 100px;
   position: relative;
@@ -83,7 +83,7 @@ table {
 }
 
 .skill {
-  background-image: url("/blurry-gradient-haikei.svg");
+  background-image: url("/resources/images/blurry-gradient-haikei.svg");
   border-top: #4f4f4f solid 2px;
   height: 400px;
   position: relative;
@@ -156,4 +156,60 @@ a {
 a:hover {
   color: blue;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 3.5em;
+    width: 80%;
+  }
+
+  #portrait {
+    width: 50%;
+  }
+
+  #prog {
+    display: block;
+    margin: 0 auto;
+    top: 5%;
+  }
+
+  #edu-p {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 10% 5%;
+    text-align: center;
+  }
+
+  #skill {
+    width: 50%;
+    top: 10%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  #skill-p {
+    display: block;
+    position: relative;
+    margin: 20%;
+    width: 100%;
+  }
+
+  #contact {
+    width: 50%;
+    top: 15%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 8%;
+  }
+
+  #contact-p {
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: 15%;
+  }
 }
