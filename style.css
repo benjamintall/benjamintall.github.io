@@ -189,4 +189,13 @@ a:hover {
   #portrait {
     width: 70%;
   }
+  
+  .top,
+  .edu,
+  .skill,
+  .contact,
+  .bottom {
+    padding: 0 10%;
+    width: 100%;
+  }
 }
