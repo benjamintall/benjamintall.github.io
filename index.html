@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Benjamin's Personal Site</title>
-  <link href="/style.css" rel="stylesheet">
-  <link href="/beni.ico" rel="icon">
+  <link href="/resources/style.css" rel="stylesheet">
+  <link href="/resources/beni.ico" rel="icon">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" rel="stylesheet">
 </head>
 
@@ -15,13 +15,18 @@
   <div class="top">
     <h1>Benjamin Tall</h1>
     <h2>IT student and aspiring Front-End Developer.</h2>
-    <img id="portrait" src="/benji.JPG" alt="benji">
+    <img id="portrait" src="/resources/images/benji.JPG" alt="benji">
   </div>
+
   <div class="edu">
-    <img id="prog" src="/undraw_programming_re_kg9v.svg" alt="programming">
+    <div id="edu">
+      <img id="edu-img" src="/resources/images/undraw_programming_re_kg9v.svg" alt="programming">
+    </div>
     <div id="edu-p">
-      <h3>Education & Experience</h3>
       <table>
+        <thead>
+          <th><h3>Education & Experience</h3></th>
+        </thead>
         <thead>
           <th><h4>Date</h4></th>
           <th><h4>Course</h4></th>
@@ -43,57 +48,77 @@
       </table>
     </div>
   </div>
+
   <div class="skill">
-    <img id="skill" src="/undraw_percentages_-0-rur.svg" alt="skill">
     <div id="skill-p">
-      <h3>Skills</h3>
       <table>
-        <tr>
-          <td>HTML</td>
-          <td>&#9673;</td>
-          <td>&#9673;</td>
-          <td>&#9673;</td>
-          <td>&#9711;</td>
-          <td>&#9711;</td>
-        </tr>
-        <tr>
-          <td>CSS</td>
-          <td>&#9673;</td>
-          <td>&#9673;</td>
-          <td>&#9711;</td>
-          <td>&#9711;</td>
-          <td>&#9711;</td>
-        </tr>
-        <tr>
-          <td>JavaScript</td>
-          <td>&#9711;</td>
-          <td>&#9711;</td>
-          <td>&#9711;</td>
-          <td>&#9711;</td>
-          <td>&#9711;</td>
-        </tr>
+        <thead>
+          <th><h3>Skills</h3></th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>&#9673;</td>
+            <td>&#9673;</td>
+            <td>&#9673;</td>
+            <td>&#9711;</td>
+            <td>&#9711;</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>&#9673;</td>
+            <td>&#9673;</td>
+            <td>&#9711;</td>
+            <td>&#9711;</td>
+            <td>&#9711;</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>&#9711;</td>
+            <td>&#9711;</td>
+            <td>&#9711;</td>
+            <td>&#9711;</td>
+            <td>&#9711;</td>
+          </tr>
+        </tbody>
       </table>
     </div>
+    <div id="skill">
+      <img id="skill-img" src="/resources/images/undraw_percentages_-0-rur.svg" alt="skill">
+    </div>
   </div>
+
   <div class="contact">
-    <img id="contact" src="/undraw_profile_re_4a55.svg" alt="contact">
+    <div id="contact">
+      <img id="contact-img" src="/resources/images/undraw_profile_re_4a55.svg" alt="contact">
+    </div>
     <div id="contact-p">
-      <h3>Contact</h3>
       <table>
-        <tr>
-          <td><h4>email:</h4></td>
-          <td><a href="mailto:benjamintall@protonmail.com" title="EMAIL ME:)">benjamintall@protonmail.com</a></td>
-        </tr>
-        <tr>
-          <td><h4>phone:</h4></td>
-          <td>(+46)73 650 70 74</td>
-        </tr>
+        <thead>
+          <th><h3>Contact</h3></th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <h4>email:</h4>
+            </td>
+            <td><a href="mailto:benjamintall@protonmail.com" title="EMAIL ME:)">benjamintall@protonmail.com</a></td>
+          </tr>
+          <tr>
+            <td>
+              <h4>phone:</h4>
+            </td>
+            <td>(+46)73 650 70 74</td>
+          </tr>
+        </tbody>
       </table>
     </div>
   </div>
+
   <div class="bottom">
     <p>© 2022 Benjamin Tall</p>
   </div>
+
 </body>
 
 </html>

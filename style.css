@@ -3,27 +3,24 @@
   padding: 0;
 }
 
-#portrait {
-  border-radius: 50%;
-  margin: 0 auto 0 auto;
-  width: 20%;
-}
-
 .top {
-  background-image: url("/blurry-gradient-haikei.svg");
-  height: 90vh;
-  padding-top: 7%;
-  position: relative;
-  text-align: center;
+  background-image: url("/resources/images/blurry-gradient-haikei.svg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  height: 100vh;
+  text-align: center;
 }
 
 h1 {
   color: antiquewhite;
   font-family: "Ruda", Sans-Serif;
   font-size: 4.5em;
-  margin: 0 auto 0 auto;
-  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   letter-spacing: 5px;
 }
 
@@ -31,10 +28,19 @@ h2 {
   color: antiquewhite;
   font-family: "Roboto Slab", Serif;
   font-size: 1.5em;
-  margin: 0 auto 0 auto;
-  padding-bottom: 8%;
-  padding-top: 3%;
-  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+#portrait {
+  border-radius: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
 }
 
 h3 {
@@ -51,102 +57,109 @@ h4 {
 
 table {
   border-spacing: 10px;
+  width: 50%;
 }
 
 .edu {
   background-color: white;
   border-top: #4f4f4f solid 2px;
-  height: 50vh;
-  position: relative;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #4f4f4f;
+  height: 50vh;
 }
 
-#prog {
-  display: inline-block;
-  right: 10%;
-  position: absolute;
-  top: 10%;
-  width: 30%;
+#edu {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#edu-img {
+  width: 50%;
 }
 
 #edu-p {
-  display: inline-block;
-  position: absolute;
-  left: 10%;
-  top: 30%;
-  width: 45%;
-}
-
-#edu-p h3 {
-  padding-bottom: 10px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .skill {
-  background-image: url("/blurry-gradient-haikei.svg");
+  background-image: url("/resources/images/blurry-gradient-haikei.svg");
   border-top: #4f4f4f solid 2px;
+  display: flex;
+  align-items: center;
   height: 50vh;
-  position: relative;
-  width: 100%;
-}
-
-#skill {
-  display: inline-block;
-  position: absolute;
-  left: 10%;
-  top: 10%;
-  width: 30%;
 }
 
 #skill-p {
   color: antiquewhite;
-  display: inline-block;
-  right: 5%;
-  position: absolute;
-  top: 35%;
-  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+#skill {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#skill-img {
+  width: 50%;
 }
 
 .contact {
   background-color: white;
   border-top: #4f4f4f solid 2px;
+  display: flex;
+  align-items: center;
   height: 40vh;
-  position: relative;
-  width: 100%;
-  color: #4f4f4f;
 }
 
 #contact {
-  display: inline-block;
-  right: 15%;
-  position: absolute;
-  top: 10%;
-  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+#contact-img {
+  width: 50%;
 }
 
 #contact-p {
-  display: inline-block;
-  position: absolute;
-  left: 15%;
-  top: 35%;
-  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 .bottom {
   background-color: #4f4f4f;
   border-bottom: #4f4f4f solid 2px;
   border-top: #4f4f4f solid 2px;
-  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
 }
 
 .bottom p {
   color: antiquewhite;
   font-weight: bold;
-  margin: 0 auto 0 auto;
-  top: 35%;
-  text-align: center;
-  width: 15%;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
@@ -159,64 +172,21 @@ a:hover {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 1000px) {
-  h1 {
-    font-size: 4em;
-    width: 90%;
+@media only screen and (max-width: 600px) {
+  #edu,
+  #skill,
+  #contact {
+    display: none;
   }
 
-  h2 {
-    font-size: 2em;
+  #edu-p,
+  #skill-p,
+  #contact-p,
+  table {
     width: 100%;
   }
+
   #portrait {
     width: 70%;
-  }
-
-  #prog {
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    top: 5%;
-    width: 40%;
-  }
-
-  #edu-p {
-    display: block;
-    position: relative;
-    width: 100%;
-    margin: 10%;
-    text-align: center;
-  }
-
-  #skill {
-    width: 50%;
-    top: 10%;
-    display: block;
-    position: relative;
-    margin: 0 auto;
-  }
-
-  #skill-p {
-    display: block;
-    position: relative;
-    margin: 20%;
-    width: auto;
-  }
-
-  #contact {
-    width: 50%;
-    top: 15%;
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    padding-bottom: 8%;
-  }
-
-  #contact-p {
-    width: auto;
-    display: block;
-    position: relative;
-    margin: 15%;
   }
 }
