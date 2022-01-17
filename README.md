@@ -1,1 +1,1 @@
-My CV and portfolio! :)
+My CV and future portfolio website.
