@@ -181,7 +181,7 @@ a:hover {
   }
 
   #portrait {
-    width: 70%;
+    width: 50%;
   }
   
   .top,
@@ -197,7 +197,8 @@ a:hover {
     display: none;
   }
   
-  .top {
-    height: 120vh;
+  
+  h1 {
+    font-spacing: 0;
   }
 }
