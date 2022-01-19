@@ -196,4 +196,8 @@ a:hover {
   .button {
     display: none;
   }
+  
+  .top {
+    height: 120vh;
+  }
 }
