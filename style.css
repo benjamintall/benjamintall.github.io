@@ -175,21 +175,12 @@ a:hover {
 
   #edu-p,
   #skill-p,
-  #contact-p,
-  table {
+  #contact-p {
     width: 100%;
   }
 
   #portrait {
     width: 70%;
-  }
-  
-  .top,
-  .edu,
-  .skill,
-  .contact,
-  .bottom {
-    width: 100%;
   }
 
   .button {
