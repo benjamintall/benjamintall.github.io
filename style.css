@@ -167,9 +167,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  #edu,
-  #skill,
-  #contact {
+  #edu-img,
+  #skill-img,
+  #contact-img {
     display: none;
   }
 
