@@ -50,10 +50,6 @@ html {
 
 .top {
   background-image: url("/blurry-gradient-haikei.svg");
-  background-repeat: no-repeat; 
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
